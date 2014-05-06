@@ -248,7 +248,7 @@ span.skills-60 {width: 60%;}
 span.skills-70 {width: 70%;}
 span.skills-18 {width: 92%;}
 
-a.drawing{
+.drawing{
  width: 400px;
  height: 400px;
  background-image: url('../img/drawing.jpg');
@@ -266,7 +266,7 @@ a.drawing{
   transition: -webkit-filter 2s ease;
 }
 
-a.drawing:hover, a.drawing:focus {
+.drawing:hover, .drawing:focus {
   -webkit-filter: grayscale(0%);
 }
 
