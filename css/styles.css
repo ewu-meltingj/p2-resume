@@ -58,6 +58,7 @@ p {
   border-bottom: .25em solid #333;
   text-align: center;
   margin-bottom: 0;
+  background-image: url('../img/binding_light.png');
 }
 
 .box-left h2 {
@@ -66,6 +67,7 @@ p {
   border-bottom: .05em solid #000;
   text-align: center;
   text-transform: uppercase;
+  background-image: url('../img/binding_light.png');
 }
 
 .box-left h2:before, .box-left h2:after {
@@ -100,6 +102,7 @@ body .font-size li a:active {
   background: #fff;
   color: #222;
   padding-top: 1.2em;
+  background-image: url('../img/greyzz.png');
 }
 
 .box-right h2 {
@@ -233,13 +236,19 @@ span.skills-60 {width: 60%;}
 span.skills-70 {width: 70%;}
 span.skills-18 {width: 92%;}
 
+.random {
+  margin-bottom: 3em;
+}
+
 .random h2 {
   color: #000;
+  border-top: .1em solid #111;
   border-bottom: .1em solid #111;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: .25em;
   margin-top: 1em;
+  background-image: url('../img/binding_light.png');
 }
 
 .random h2:before, .random h2:after {
@@ -288,10 +297,6 @@ span.skills-18 {width: 92%;}
 .drawing:hover {
   -webkit-filter: grayscale(0%);
 }
-
-
-
-
 
 
 
