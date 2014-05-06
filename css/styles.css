@@ -50,8 +50,8 @@ p {
 
 .box-left h1 {
   margin-top: 0;
-  border-top: .05em solid #000;
-  border-bottom: .05em solid #000;
+  border-top: .25em solid #000;
+  border-bottom: .25em solid #000;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .right-article{
-  margin-bottom: 30px;
+  margin-bottom: 3em;
 }
 
 h3.date {
@@ -120,7 +120,7 @@ h3.date small:last-of-type {
   float: right;
 }
 h4.company-name {
-  color: #444;
+  color: #555;
   float: right;
   width: 272px;
   margin: 1.22em 20px .1618em 10px;
@@ -128,10 +128,12 @@ h4.company-name {
 }
 
 p.company-info {
+  text-align: left;
   float: right;
   width: 272px;
-  margin: 0 20px 1em 10px;
+  margin: 0 20px 0 10px;
   line-height: 1.4em;
+  font-size: .84em;
 }
 
 .random h2 {
@@ -139,12 +141,46 @@ p.company-info {
   border-bottom: .1em solid #000;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: .25em;
 }
 
 .random h2:before, .random h2:after {
   content: "\2219";
 }
 
-.one-em {
+.random .article h5 {
+  margin: 0;
+  background: #111;
+  color: #cfcfcf;
+  margin-bottom: .5em;
+  font-size: 1.5em;
+  padding: .25em .65em .25em .65em;
+}
+
+.random .article p {
+  text-align: justify;
+  text-indent: 1em;
+  margin: 0;
   margin-bottom: 1em;
 }
+.random .article p span {
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
