@@ -340,22 +340,22 @@ span.skills-18 {width: 92%;}
 }
 
 .interests .hexagon {
-  -webkit-animation: hex-one 5s infinite normal both linear;
-  -moz-animation:    hex-one 5s infinite normal both linear;
-  -o-animation:      hex-one 5s infinite normal both linear;
-  animation:         hex-one 5s infinite normal both linear;
+  -webkit-animation: hex-one 11.362s infinite normal both linear;
+  -moz-animation:    hex-one 11.362s infinite normal both linear;
+  -o-animation:      hex-one 11.362s infinite normal both linear;
+  animation:         hex-one 11.362s infinite normal both linear;
 }
 .interests .hexagon:before {
-  -webkit-animation: hex-one-before 5s infinite normal both linear;
-  -moz-animation:    hex-one-before 5s infinite normal both linear;
-  -o-animation:      hex-one-before 5s infinite normal both linear;
-  animation:         hex-one-before 5s infinite normal both linear;
+  -webkit-animation: hex-one-before 11.362s infinite normal both linear;
+  -moz-animation:    hex-one-before 11.362s infinite normal both linear;
+  -o-animation:      hex-one-before 11.362s infinite normal both linear;
+  animation:         hex-one-before 11.362s infinite normal both linear;
 }
 .interests .hexagon:after {
-  -webkit-animation: hex-one-after 5s infinite normal both linear;
-  -moz-animation:    hex-one-after 5s infinite normal both linear;
-  -o-animation:      hex-one-after 5s infinite normal both linear;
-  animation:         hex-one-after 5s infinite normal both linear;
+  -webkit-animation: hex-one-after 11.362s infinite normal both linear;
+  -moz-animation:    hex-one-after 11.362s infinite normal both linear;
+  -o-animation:      hex-one-after 11.362s infinite normal both linear;
+  animation:         hex-one-after 11.362s infinite normal both linear;
 }
 .hex-wrapper div:nth-of-type(1) .hexagon{ -webkit-animation-delay: 0s }
 .hex-wrapper div:nth-of-type(1) .hexagon:before{ -webkit-animation-delay: 0s }
