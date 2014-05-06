@@ -7,3 +7,4 @@ p2-resume
 * In the future I will make my own custom icons with svg. This is due to the page loading and then the icons loading lattttter. So annoying.
 * I think that is all of the comments needed for this.
 * Oh yeah, I was not sure if the content needed to be real or not. sooooooooooooo some may or may not be real.
+*I HOPE YOU LIKE ALL OF THAT CORN FLOWER BLUE! IT'S ALL THAT I USED :)*
