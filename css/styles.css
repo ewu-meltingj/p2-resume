@@ -77,7 +77,13 @@ p {
 
 .mission {
   margin-top: .5em;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
+}
+
+.mission p {
+  margin: 0;  
+  font-size: .9em;
+  text-indent: 1em;
 }
 
 .box-right {
@@ -101,19 +107,19 @@ p {
 }
 
 .box-right p {
-  margin: 5px 20px 0px 20px;
+  margin: 5px 0 0 0;
   text-align: justify;
 }
 
 .right-article{
-  margin-bottom: 3em;
+  margin: 0 20px 3em 20px;
 }
 
 .contact p {
   float: left;
-  margin: 0 0 0 20px;
-  width: 225px;
-  font-size: 1.1em;
+  margin: 0;
+  width: 150px;
+  font-size: .84em;
   line-height: 2em;
 }
 .contact p span {
@@ -130,7 +136,7 @@ p {
 h3.date {
   line-height: .7em;
   width: 158px;
-  margin: 0 10px 0 20px;
+  margin: 0 10px 0 0;
   float: left;
   color: #555;
   text-align: center;
@@ -148,7 +154,7 @@ h4.company-name {
   color: #444;
   float: right;
   width: 272px;
-  margin: 1.27em 20px .1618em 10px;
+  margin: 1.27em 0 .1618em 10px;
   line-height: 1em;
   text-transform: uppercase;
 }
@@ -157,7 +163,7 @@ p.company-info {
   text-align: left;
   float: right;
   width: 272px;
-  margin: 0 20px 0 10px;
+  margin: 0 0 0 10px;
   line-height: 1.4em;
   font-size: .84em;
 }
@@ -167,21 +173,60 @@ ul.school-info {
   float: right;
   width: 272px;
   padding: 0;
-  margin: 0 20px 0 10px;
+  margin: 0 0 0 10px;
   line-height: 1.4em;
   font-size: .84em;
   list-style-type: none;
 }
 
-ul.school-info li {}
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  border-top: 1px dashed #666;
+  width: 100%;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  text-transform: uppercase;
+}
+.skills ul li {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+.skills ul li:first-of-type {
+  text-align: left;
+}
+.skills ul li:last-of-type {
+  text-align: right;
+}
+
+.skills p {
+  font-size: 1em;
+  line-height: 1.5em;
+  height: 2em;
+}
+
+.skills p span {
+  color: #000;
+  background: cornflowerblue;
+  text-transform: uppercase;
+  padding: .25em 0 .25em .5em;
+  color: white;
+  display: block;
+}
+
+span.skills-20 {width: 40%;}
+span.skills-60 {width: 60%;}
+span.skills-70 {width: 70%;}
+span.skills-18 {width: 92%;}
 
 .random h2 {
   color: #000;
-  border-top: 1em solid #111;
   border-bottom: .1em solid #111;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: .25em;
+  margin-top: 1em;
 }
 
 .random h2:before, .random h2:after {
