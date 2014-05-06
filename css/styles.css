@@ -1,5 +1,8 @@
 /* Your Website Styles */
-
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
 
 /* Show Grid */
 .showgrid {
@@ -53,6 +56,7 @@ p {
   border-top: .25em solid #000;
   border-bottom: .25em solid #000;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .box-left h2 {
@@ -72,6 +76,7 @@ p {
 }
 
 .mission {
+  margin-top: .5em;
   margin-bottom: 4em;
 }
 
@@ -104,6 +109,24 @@ p {
   margin-bottom: 3em;
 }
 
+.contact p {
+  float: left;
+  margin: 0 0 0 20px;
+  width: 225px;
+  font-size: 1.1em;
+  line-height: 2em;
+}
+.contact p span {
+  font-size: 1.25em;
+  width: 1.05em;
+  margin-right: .3em;
+  text-align: center;
+  display: block;
+  float: left;
+  font-weight: 0;
+  color: #555;
+}
+
 h3.date {
   line-height: .7em;
   width: 158px;
@@ -111,20 +134,23 @@ h3.date {
   float: left;
   color: #555;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h3.date small {
+  float: right;
+  color: #888;
+}
+h3.date small:first-of-type {
   float: left;
 }
-h3.date small:last-of-type {
-  float: right;
-}
 h4.company-name {
-  color: #555;
+  color: #444;
   float: right;
   width: 272px;
-  margin: 1.22em 20px .1618em 10px;
+  margin: 1.27em 20px .1618em 10px;
   line-height: 1em;
+  text-transform: uppercase;
 }
 
 p.company-info {
@@ -136,9 +162,23 @@ p.company-info {
   font-size: .84em;
 }
 
+ul.school-info {
+  text-align: left;
+  float: right;
+  width: 272px;
+  padding: 0;
+  margin: 0 20px 0 10px;
+  line-height: 1.4em;
+  font-size: .84em;
+  list-style-type: none;
+}
+
+ul.school-info li {}
+
 .random h2 {
-  border-top: 1em solid #000;
-  border-bottom: .1em solid #000;
+  color: #000;
+  border-top: 1em solid #111;
+  border-bottom: .1em solid #111;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: .25em;
@@ -151,10 +191,10 @@ p.company-info {
 .random .article h5 {
   margin: 0;
   background: #111;
-  color: #cfcfcf;
-  margin-bottom: .5em;
-  font-size: 1.5em;
-  padding: .25em .65em .25em .65em;
+  color: #fff;
+  margin-bottom: .2em;
+  font-size: 1.2em;
+  padding: .2em .85em .2em .85em;
 }
 
 .random .article p {
@@ -162,6 +202,7 @@ p.company-info {
   text-indent: 1em;
   margin: 0;
   margin-bottom: 1em;
+  font-size: .9em;
 }
 .random .article p span {
   font-weight: 600;
