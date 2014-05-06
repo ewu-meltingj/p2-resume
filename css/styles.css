@@ -9,131 +9,6 @@
 	background: url("../img/grid-bg.png") repeat-y;
 }
 
-.gahd {
-  display: block;
-  width: 490px;
-  margin: 0;
-  padding: 0;
-  height: 784px;
-}
-
-span.skills-20 {width: 40%;}
-span.skills-60 {width: 60%;}
-span.skills-70 {width: 70%;}
-span.skills-18 {width: 92%;}
-
-span.skills-20  {
-  -webkit-animation: skills-one 5s infinite normal both linear;
-  -moz-animation:    skills-one 5s infinite normal both linear;
-  -o-animation:      skills-one 5s infinite normal both linear;
-  animation:         skills-one 5s infinite normal both linear;
-}
-
-@-webkit-keyframes skills-one {
-  0%   {width: 40%;}
-  50%  {width: 50%;}
-  100% {width: 40%;}
-}
-@-moz-keyframes skills-one {
-  0%   {width: 40%;}
-  50%  {width: 50%;}
-  100% {width: 40%;}
-}
-@-o-keyframes skills-one {
-  0%   {width: 40%;}
-  50%  {width: 50%;}
-  100% {width: 40%;}
-}
-@keyframes skills-one {
-  0%   {width: 40%;}
-  50%  {width: 50%;}
-  100% {width: 40%;}
-}
-
-span.skills-60  {
-  -webkit-animation: skills-two 5s 1s infinite normal both ease-in-out;
-  -moz-animation:    skills-two 5s 1s infinite normal both ease-in-out;
-  -o-animation:      skills-two 5s 1s infinite normal both ease-in-out;
-  animation:         skills-two 5s 1s infinite normal both ease-in-out;
-}
-
-@-webkit-keyframes skills-two {
-  0%   {width: 55%;}
-  50%  {width: 67%;}
-  100% {width: 55%;}
-}
-@-moz-keyframes skills-two {
-  0%   {width: 55%;}
-  50%  {width: 67%;}
-  100% {width: 55%;}
-}
-@-o-keyframes skills-two {
-  0%   {width: 55%;}
-  50%  {width: 67%;}
-  100% {width: 55%;}
-}
-@keyframes skills-two {
-  0%   {width: 55%;}
-  50%  {width: 67%;}
-  100% {width: 55%;}
-}
-
-.skills-70  {
-  -webkit-animation: skills-three 5s 2s infinite normal both ease-in-out;
-  -moz-animation:    skills-three 5s 2s infinite normal both ease-in-out;
-  -o-animation:      skills-three 5s 2s infinite normal both ease-in-out;
-  animation:         skills-three 5s 2s infinite normal both ease-in-out;
-}
-
-@-webkit-keyframes skills-three {
-  0%   {width: 65%;}
-  50%  {width: 77%;}
-  100% {width: 65%;}
-}
-@-moz-keyframes skills-three {
-  0%   {width: 65%;}
-  50%  {width: 77%;}
-  100% {width: 65%;}
-}
-@-o-keyframes skills-three {
-  0%   {width: 65%;}
-  50%  {width: 77%;}
-  100% {width: 65%;}
-}
-@keyframes skills-three {
-  0%   {width: 65%;}
-  50%  {width: 77%;}
-  100% {width: 65%;}
-}
-
-.skills-18  {
-  -webkit-animation: skills-four 5s 3s infinite normal both ease-in-out;
-  -moz-animation:    skills-four 5s 3s infinite normal both ease-in-out;
-  -o-animation:      skills-four 5s 3s infinite normal both ease-in-out;
-  animation:         skills-four 5s 3s infinite normal both ease-in-out;
-}
-
-@-webkit-keyframes skills-four {
-  0%   {width: 87%;}
-  50%  {width: 94%;}
-  100% {width: 87%;}
-}
-@-moz-keyframes skills-four {
-  0%   {width: 87%;}
-  50%  {width: 94%;}
-  100% {width: 87%;}
-}
-@-o-keyframes skills-four {
-  0%   {width: 87%;}
-  50%  {width: 94%;}
-  100% {width: 87%;}
-}
-@keyframes skills-four {
-  0%   {width: 87%;}
-  50%  {width: 94%;}
-  100% {width: 87%;}
-}
-
 body {
   background: #dcdcdc;
   font-family: 'Open Sans', sans-serif;
@@ -179,8 +54,8 @@ p {
 
 .box-left h1 {
   margin-top: 0;
-  border-top: .25em ridge #111;
-  border-bottom: .25em ridge #111;
+  border-top: .25em solid #333;
+  border-bottom: .25em solid #333;
   text-align: center;
   margin-bottom: 0;
 }
@@ -392,6 +267,27 @@ span.skills-18 {width: 92%;}
   font-weight: 600;
 }
 
+.drawing{
+ width: 400px;
+ height: 400px;
+ background-image: url('../img/drawing.jpg');
+ background-size: cover;
+ display: block;
+ border-radius: 200px;
+ -webkit-border-radius: 200px;
+ -moz-border-radius: 200px;
+ margin: 0 auto;
+ box-shadow:
+  0 0 0 10px hsl(0, 0%, 86.3%),
+  0 0 0 15px hsl(0, 0%, 90%);
+  margin-top: 3em;
+  -webkit-filter: grayscale(100%);
+  transition: -webkit-filter 2s ease;
+}
+
+.drawing:hover {
+  -webkit-filter: grayscale(0%);
+}
 
 
 
@@ -402,6 +298,146 @@ span.skills-18 {width: 92%;}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the skills animations */
+span.skills-20 {width: 40%;}
+span.skills-60 {width: 60%;}
+span.skills-70 {width: 70%;}
+span.skills-18 {width: 92%;}
+
+span.skills-20  {
+  -webkit-animation: skills-one 5s infinite normal both linear;
+  -moz-animation:    skills-one 5s infinite normal both linear;
+  -o-animation:      skills-one 5s infinite normal both linear;
+  animation:         skills-one 5s infinite normal both linear;
+}
+
+@-webkit-keyframes skills-one {
+  0%   {width: 37%;}
+  50%  {width: 41%;}
+  100% {width: 37%;}
+}
+@-moz-keyframes skills-one {
+  0%   {width: 37%;}
+  50%  {width: 41%;}
+  100% {width: 37%;}
+}
+@-o-keyframes skills-one {
+  0%   {width: 37%;}
+  50%  {width: 41%;}
+  100% {width: 37%;}
+}
+@keyframes skills-one {
+  0%   {width: 37%;}
+  50%  {width: 41%;}
+  100% {width: 37%;}
+}
+
+span.skills-60  {
+  -webkit-animation: skills-two 5s 1s infinite normal both ease-in-out;
+  -moz-animation:    skills-two 5s 1s infinite normal both ease-in-out;
+  -o-animation:      skills-two 5s 1s infinite normal both ease-in-out;
+  animation:         skills-two 5s 1s infinite normal both ease-in-out;
+}
+
+@-webkit-keyframes skills-two {
+  0%   {width: 58%;}
+  50%  {width: 62%;}
+  100% {width: 58%;}
+}
+@-moz-keyframes skills-two {
+  0%   {width: 58%;}
+  50%  {width: 62%;}
+  100% {width: 58%;}
+}
+@-o-keyframes skills-two {
+  0%   {width: 58%;}
+  50%  {width: 62%;}
+  100% {width: 58%;}
+}
+@keyframes skills-two {
+  0%   {width: 58%;}
+  50%  {width: 62%;}
+  100% {width: 58%;}
+}
+
+.skills-70  {
+  -webkit-animation: skills-three 5s 2s infinite normal both ease-in-out;
+  -moz-animation:    skills-three 5s 2s infinite normal both ease-in-out;
+  -o-animation:      skills-three 5s 2s infinite normal both ease-in-out;
+  animation:         skills-three 5s 2s infinite normal both ease-in-out;
+}
+
+@-webkit-keyframes skills-three {
+  0%   {width: 69%;}
+  50%  {width: 73%;}
+  100% {width: 69%;}
+}
+@-moz-keyframes skills-three {
+  0%   {width: 69%;}
+  50%  {width: 73%;}
+  100% {width: 69%;}
+}
+@-o-keyframes skills-three {
+  0%   {width: 69%;}
+  50%  {width: 73%;}
+  100% {width: 69%;}
+}
+@keyframes skills-three {
+  0%   {width: 69%;}
+  50%  {width: 73%;}
+  100% {width: 69%;}
+}
+
+.skills-18  {
+  -webkit-animation: skills-four 5s 3s infinite normal both ease-in-out;
+  -moz-animation:    skills-four 5s 3s infinite normal both ease-in-out;
+  -o-animation:      skills-four 5s 3s infinite normal both ease-in-out;
+  animation:         skills-four 5s 3s infinite normal both ease-in-out;
+}
+
+@-webkit-keyframes skills-four {
+  0%   {width: 91%;}
+  50%  {width: 94%;}
+  100% {width: 91%;}
+}
+@-moz-keyframes skills-four {
+  0%   {width: 91%;}
+  50%  {width: 94%;}
+  100% {width: 91%;}
+}
+@-o-keyframes skills-four {
+  0%   {width: 91%;}
+  50%  {width: 94%;}
+  100% {width: 91%;}
+}
+@keyframes skills-four {
+  0%   {width: 91%;}
+  50%  {width: 94%;}
+  100% {width: 91%;}
+}
 
 
 
