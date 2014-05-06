@@ -416,62 +416,62 @@ span.skills-18 {width: 92%;}
 
 @-webkit-keyframes hex-one {
   0%   {background: cornflowerblue;}
-  50%  {background: #1659bd;}
+  50%  {background: #555;}
   100% {background: cornflowerblue;}
 }
 @-moz-keyframes hex-one {
   0%   {background: cornflowerblue;}
-  50%  {background: #1659bd;}
+  50%  {background: #555;}
   100% {background: cornflowerblue;}
 }
 @-o-keyframes hex-one {
   0%   {background: cornflowerblue;}
-  50%  {background: #1659bd;}
+  50%  {background: #555;}
   100% {background: cornflowerblue;}
 }
 @keyframes hex-one {
   0%   {background: cornflowerblue;}
-  50%  {background: #1659bd;}
+  50%  {background: #555;}
   100% {background: cornflowerblue;}
 }
 @-webkit-keyframes hex-one-before {
   0%   {border-bottom: 25px solid cornflowerblue;}
-  50%  {border-bottom: 25px solid #1659bd;}
+  50%  {border-bottom: 25px solid #555;}
   100% {border-bottom: 25px solid cornflowerblue;}
 }
 @-moz-keyframes hex-one-before {
   0%   {border-bottom: 25px solid cornflowerblue;}
-  50%  {border-bottom: 25px solid #1659bd;}
+  50%  {border-bottom: 25px solid #555;}
   100% {border-bottom: 25px solid cornflowerblue;}
 }
 @-o-keyframes hex-one-before {
   0%   {border-bottom: 25px solid cornflowerblue;}
-  50%  {border-bottom: 25px solid #1659bd;}
+  50%  {border-bottom: 25px solid #555;}
   100% {border-bottom: 25px solid cornflowerblue;}
 }
 @keyframes hex-one-before {
   0%   {border-bottom: 25px solid cornflowerblue;}
-  50%  {border-bottom: 25px solid #1659bd;}
+  50%  {border-bottom: 25px solid #555;}
   100% {border-bottom: 25px solid cornflowerblue;}
 }
 @-webkit-keyframes hex-one-after {
   0%   {border-top: 25px solid cornflowerblue;}
-  50%  {border-top: 25px solid #1659bd;}
+  50%  {border-top: 25px solid #555;}
   100% {border-top: 25px solid cornflowerblue;}
 }
 @-moz-keyframes hex-one-after {
   0%   {border-top: 25px solid cornflowerblue;}
-  50%  {border-top: 25px solid #1659bd;}
+  50%  {border-top: 25px solid #555;}
   100% {border-top: 25px solid cornflowerblue;}
 }
 @-o-keyframes hex-one-after {
   0%   {border-top: 25px solid cornflowerblue;}
-  50%  {border-top: 25px solid #1659bd;}
+  50%  {border-top: 25px solid #555;}
   100% {border-top: 25px solid cornflowerblue;}
 }
 @keyframes hex-one-after {
   0%   {border-top: 25px solid cornflowerblue;}
-  50%  {border-top: 25px solid #1659bd;}
+  50%  {border-top: 25px solid #555;}
   100% {border-top: 25px solid cornflowerblue;}
 }
 
